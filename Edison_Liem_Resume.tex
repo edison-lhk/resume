@@ -1,0 +1,233 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Huge \scshape Edison Liem} \\ \vspace{5pt}
+    Markham, ON, Canada L3P 7S9 \\ \vspace{7pt}
+    \small \raisebox{-0.1\height}\faPhone\ +1 (437)-340-9704 ~ \href{mailto:edison.liem@mail.utoronto.ca}{\raisebox{-0.2\height}\faEnvelope\  edison.liem@mail.utoronto.ca} ~
+    \href{https://linkedin.com/in/edison-liem/}{\raisebox{-0.2\height}\faLinkedin\ linkedin.com/in/edison-liem}  ~
+    \href{https://github.com/edison-lhk}{\raisebox{-0.2\height}\faGithub\ github.com/edison-lhk}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Toronto}{Sep 2022 -- Jun 2026 (Expected)}
+      {Honours Bachelor of Science, Computer Science Specialist (Co-op)}{Toronto, Ontario}
+      \resumeItemListStart
+      \resumeItem{Cumulative GPA: 4.0/4.0}
+      \resumeItem{Scholarship: University of Toronto Scholar (CAD \$7,500), University of Toronto Scarborough Entrance Scholarship (CAD \$12,000)}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+  %-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+\vspace{2pt}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, HTML, CSS/SASS, JavaScript, TypeScript, C, SQL} \\
+     \vspace{2pt}
+     \textbf{Technologies}{: React.js, Angular, Redux, Node.js, Express.js, Django, GraphQL} \\
+     \vspace{2pt}
+     \textbf{Tools}{: Docker, Nginx, Postman, Git, Github} \\
+    }}
+ \end{itemize}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+    {UofTHacks}{Jul 2022 -- Present}
+      {Backend Developer -- TypeScript, Node.js, Express.js, MariaDB, Docker}{Toronto, Ontario}
+      \resumeItemListStart
+        \resumeItem{Design a complex MariaDB database schema that stores over 500+ UofTHacks users, teams, projects, applications and calender information.}
+        \resumeItem{Build multiple Rest API endpoints that serve the admin dashboard with user authentication, email verification, calendar viewing and QR code scanning features that will be used by all executives, mentors, volunteers, judges and participants of UofTHacks.}
+        \resumeItem{Secure the whole backend system with input sanitisation, database connection limiting, password hashing and different strict security requirements in order to prevent SQL injection, Cross-site scripting and data leak.}
+        \resumeItem{Implement role-based access control with JWT and authentication middlewares that assigns different users (hacker, mentor, volunteer and judges) with their corresponding permission and restricts unauthorised users from protected routes.}
+        \resumeItem{Create a server-side script that automates the process of sending acceptance emails to hackers in batches.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+    {UTSC FinTech Society}{Jul 2022 -- Present}
+      {Software Developer -- TypeScript, React.js, Redux, Node.js, Express.js, PostgreSQL, Docker, Nginx}{Toronto, Ontario}
+      \resumeItemListStart
+        \resumeItem{Build the first official website of the society using React.js \& Redux to deliver timely events and news information with 100+ general members.}
+        \resumeItem{Develop a full-stack admin dashboard utilizing PERN stack that bridges the connection with the official website which allows executives to perform common management tasks up to 200\% faster and update the information on the official website automatically.}
+        \resumeItem{Containerize the whole full-stack application utilizing Docker which significantly reduces the setup time in the development environment and resolves compatibility issues of each service among other developers.}
+        \resumeItem{Deploy codes into production through DigitalOcean droplet with Nginx serves as a reverse proxy to web applications running on different ports.}
+    \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Shoppingify} $|$ \emph{TypeScript, React.js, Redux, Node.js, Express.js, MongoDB} ~
+          \href{https://github.com/edison-lhk/shoppingify}{\faGithub}}{Jul 2022}
+          \resumeItemListStart
+            \resumeItem{Develop a full-stack shopping app that allows users to create their own personalized grocery lists.}
+            \resumeItem{Provide users with the ability to make their grocery list into a checklist during shopping time.}
+            \resumeItem{Implement logic to calculate statistics of users’ shopping trends based on their previous shopping history.}
+          \resumeItemListEnd
+          \vspace{-13pt}
+      \resumeProjectHeading
+          {\textbf{Authentication App} $|$ \emph{TypeScript, React.js, Node.js, Express.js, MongoDB} ~
+          \href{https://github.com/edison-lhk/mern-auth-app}{\faGithub}}{Jun 2022}
+          \resumeItemListStart
+            \resumeItem{Develop a full-stack authentication app that provide different authentication services (Local, Google, Facebook, Twitter, Github) for users to login and access protected routes with PassportJS and Express-Session cookies.}
+            \resumeItem{Provide users with the ability to register new accounts, verify email accounts using nodemailer, login to access protected dashboard routes and request a password reset.}
+          \resumeItemListEnd
+          \vspace{-13pt}
+          \resumeProjectHeading
+          {\textbf{Movie App} $|$ \emph{HTML, CSS, React.js} ~
+          \href{https://github.com/edison-lhk/movie-app}{\faGithub}}{May 2022}
+          \resumeItemListStart
+            \resumeItem{Develop a visually-appealing movie application using React.js with The Movie Database (TMDb) API that provide users with the ability to search and view the details of a list of popular and top-rated movies.}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+\end{document}
